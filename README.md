@@ -14,7 +14,7 @@ This project analyzes Blinkit’s sales data using Power BI. It highlights KPIs 
 ---
 
 ## 📸 Dashboard Preview
-![Blinkit Dashboard](blinkit_preview.png)
+![Blinkit Dashboard](Dashboard.jpg)
 
 ---
 
