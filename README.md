@@ -64,7 +64,6 @@ The interactive dashboard visualizes insights about user engagement, platform us
 📸 **Preview:**  
 ![Spotify Dashboard](https://github.com/lalithasaipasala/city-accident-analysis-excel/blob/main/Spotify%20.jpg)
 
-👉 [Click here to see the complete project](https://github.com/lalithasaipasala/city-accident-analysis-excel/blob/main/Spotify%20Analysis-20250519T142144Z-1-001.zip)
 
 
 
