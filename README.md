@@ -1,11 +1,73 @@
-## 🎧Spotify Streaming Insights
+# Spotify Data Analysis Dashboard
 
-Analyzes personal Spotify listening patterns:
-- Total Tracks, Artists & Albums Played (Year-wise)
-- Weekday vs. Weekend Listening
-- Top Artists, Albums, and Tracks
+## Overview
+This project analyzes Spotify listening behavior using a dataset containing detailed playback information such as tracks, artists, albums, platforms, and playback reasons.  
+The interactive dashboard visualizes insights about user engagement, platform usage, and listening trends.
 
-🔧 **Tools:** Power BI, Spotify Dataset  
+![Spotify Dashboard](faaec2a0-c9b0-4845-a71b-0cd73b0ca481.png)
+
+---
+
+## Objectives
+- Analyze user listening patterns over time.  
+- Identify the most played tracks, artists, and albums.  
+- Understand user interaction through shuffle mode, skips, and playback reasons.  
+- Compare year-over-year listening trends.  
+- Visualize engagement across platforms such as Android, iOS, and Web Player.
+
+---
+
+## Data Dictionary
+
+| Field | Description | Example / Format | Purpose |
+|-------|--------------|------------------|----------|
+| **spotify_track_uri** | Unique Spotify track identifier | `spotify:track:3n3Ppam7vgaVa1iaRUc9Lp` | Maps each play to its metadata |
+| **ts** | UTC timestamp when the track stopped playing | `2024-02-07T14:30:45Z` | Used for time-based analysis |
+| **platform** | Device/platform used for playback | `desktop`, `mobile`, `web`, `smart_speaker` | Identifies where users listen |
+| **ms_played** | Duration played in milliseconds | `215000` | Measures engagement and completion |
+| **track_name** | Title of the song | `Shape of You` | Identifies most played tracks |
+| **artist_name** | Artist performing the song | `Ed Sheeran` | Ranks artists by preference |
+| **album_name** | Album the track belongs to | `÷ (Divide)` | Evaluates album popularity |
+| **reason_start** | Reason why the track started | `trackdone`, `clickrow`, `autoplay` | Helps understand playback behavior |
+| **reason_end** | Reason why the track stopped | `trackdone`, `fwdbtn`, `logout` | Identifies user drop-off reasons |
+| **shuffle** | Whether shuffle mode was enabled | `TRUE` / `FALSE` | Measures random listening habits |
+| **skipped** | Whether the track was skipped | `TRUE` / `FALSE` | Tracks user engagement and skips |
+
+---
+
+## Key Insights
+- Total albums played: 7,383 (up 20.19% year-over-year)  
+- Total artists played: 3,835 (down 24.43% year-over-year)  
+- Total tracks played: 12,724 (up 10.42% year-over-year)  
+- Top albums: The Beatles, Past Masters, Abbey Road, The Wall, Revolver  
+- Top tracks: Ode to Thee, In the Blood, Dying Breed, 19 Days & 500 Nights, For What It’s Worth  
+
+---
+
+## Dashboard Features
+- Built using Power BI or Tableau  
+- Interactive filters for Platform, Shuffle Mode, and Skipped Tracks  
+- KPI cards comparing current vs previous year  
+- Trend lines showing listening growth  
+- Visuals comparing weekday vs weekend engagement  
+
+---
+
+## Tools and Technologies
+- Python and Pandas for data cleaning and preprocessing  
+- Power BI or Tableau for data visualization  
+- Excel or CSV for data transformation  
+- Spotify API (optional) for metadata enrichment  
+
+---
+
+## How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<your-username>/spotify-data-analysis.git
+   cd spotify-data-analysis
+
+
 📸 **Preview:**  
 ![Spotify Dashboard](https://github.com/lalithasaipasala/city-accident-analysis-excel/blob/main/Spotify%20.jpg)
 
