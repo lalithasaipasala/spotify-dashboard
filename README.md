@@ -4,7 +4,6 @@
 This project analyzes Spotify listening behavior using a dataset containing detailed playback information such as tracks, artists, albums, platforms, and playback reasons.  
 The interactive dashboard visualizes insights about user engagement, platform usage, and listening trends.
 
-![Spotify Dashboard](faaec2a0-c9b0-4845-a71b-0cd73b0ca481.png)
 
 ---
 
