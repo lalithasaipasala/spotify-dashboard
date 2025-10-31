@@ -61,12 +61,6 @@ The interactive dashboard visualizes insights about user engagement, platform us
 
 ---
 
-## How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/<your-username>/spotify-data-analysis.git
-   cd spotify-data-analysis
-
 
 📸 **Preview:**  
 ![Spotify Dashboard](https://github.com/lalithasaipasala/city-accident-analysis-excel/blob/main/Spotify%20.jpg)
