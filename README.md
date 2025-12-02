@@ -66,6 +66,51 @@ The interactive dashboard visualizes insights about user engagement, platform us
 
 
 
+# Chicago Crime Analysis Dashboard
+
+## Overview
+This project analyzes 585,418 crime records from the City of Chicago.
+The interactive Excel dashboard highlights crime trends across years, races, charge statutes, and offense categories.
+
+---
+
+## Objectives
+- Analyze total crime filings across Charge Statutes 1–4.
+- Identify year-over-year crime trends from 2014–2023.
+- Examine crime distribution by race and demographic groups.
+- Explore seasonal crime patterns using month-by-month data.
+- Identify the most common crime categories.
+- Build an interactive Excel dashboard using PivotTables, PivotCharts, and slicers.
+
+---
+
+## Key Insights
+- Total cases analyzed: 585,418
+- Crime filings peaked between 2014–2018
+- Black and White racial groups account for the highest case counts
+- Common offenses include Issuance of Warrant, Domestic Battery, Criminal Trespass, and Driving on Suspended License
+- Filing activity is higher during spring and summer months
+
+---
+
+## Tools and Technologies
+- Microsoft Excel
+- PivotTables and PivotCharts
+- Slicers (Year, Race, Date)
+- Data cleaning and preprocessing
+- Chicago Public Crime Dataset
+
+---
+
+## Dashboard Preview
+![Chicago Crime Dashboard](your-image-link-here)
+
+---
+
+
+
+
+
 
 
 
