@@ -103,7 +103,7 @@ The interactive Excel dashboard highlights crime trends across years, races, cha
 ---
 
 ## Dashboard Preview
-![Chicago Crime Dashboard](your-image-link-here)
+![Chicago Crime Dashboard](https://github.com/lalithasaipasala/spotify-dashboard/blob/main/Chicago_Crime_Analysis.jpg)
 
 ---
 
